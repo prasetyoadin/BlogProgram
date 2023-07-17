@@ -28,4 +28,5 @@ public interface BlogService {
 
 	public Page<Blog> findWithPagination(Integer pageIndex, Integer pageSize, String sortField, String sortDirection) throws Exception;
 
+//	public void test();
 }
